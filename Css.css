@@ -1,0 +1,104 @@
+        body {
+            box-sizing: border-box;
+        }
+        
+        .container-fluid {
+            margin: auto;
+            padding: 1.5% 0 0 0;
+            width: 95%;
+        }
+        
+        .row {
+            overflow: hidden;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+        
+        .left {
+            color: #009688;
+            padding: 0;
+            width: 33%;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+        
+        .right {
+            color: #009688;
+            margin-left: 1%;
+            width: 65.9%;
+            background-color: rgba(1, 1, 1, .12);
+        }
+        
+        @media (max-width: 576px) {
+            .left {
+                width: 100%;
+            }
+            .right {
+                margin-left: 0;
+                width: 100%;
+            }
+        }
+        
+        .Imgcontainer {
+            position: relative
+        }
+        
+        .display {
+            position: absolute;
+            left: 20px;
+            bottom: 1%;
+        }
+        
+        .profile {
+            padding: 2%;
+            background-color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        
+        .progress-bar {
+            background-color: 009688;
+            border-radius: 50px;
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+        }
+        
+        .progress {
+            border-radius: 50px;
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+        }
+        
+        .WorkExperience {
+            font-weight: lighter;
+            color: #009688;
+            background-color: white;
+            opacity: 1;
+            padding: 2%;
+            box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+            margin-bottom: 2%;
+        }
+        
+        h6 {
+            color: #009688;
+        }
+        
+        b {
+            margin-bottom: 2%
+        }
+        
+        .w3-container {
+            padding: 2%;
+        }
+        
+        .footer {
+            margin-top: 1%;
+            width: 100%;
+            background-color: #009688;
+            text-align: center;
+            color: white;
+        }
+        
+        a {
+            text-decoration: none;
+            color: white;
+        }
+        
+        .footer i:hover {
+            color: gray;
+        }
